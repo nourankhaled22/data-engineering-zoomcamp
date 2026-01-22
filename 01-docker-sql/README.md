@@ -12,7 +12,7 @@ I ran the following command:
 docker run -it --entrypoint=bash python:3.13
 ```````
 Inside the container, I checked the pip version using:
-pip --version
+pip --version```````
 **Answer:** 25.3
 
 
