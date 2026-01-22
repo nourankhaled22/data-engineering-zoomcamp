@@ -15,16 +15,19 @@ pip --version
 Answer: 25.3
 
 ---
-## Question 2: Understanding Docker networking and docker-compose
+Question 2: Understanding Docker networking and docker-compose
 
 In docker-compose, containers communicate with each other using the service name as the hostname
 and the internal container port.
 
 Since pgadmin and postgres are in the same docker-compose network:
-- Hostname: postgres
-- Port: 5432
 
-**Answer:** postgres:5432
+Hostname: postgres
+
+Port: 5432
+
+Answer: postgres:5432
+
 ---
 ## Question 3: Counting short trips
 
