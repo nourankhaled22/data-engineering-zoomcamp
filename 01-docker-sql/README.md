@@ -14,7 +14,7 @@ docker run -it --entrypoint=bash python:3.13
 Inside the container, I checked the pip version using:
 pip --version
 
-**Answer:** 25.3
+**Answer:** `25.3`
 
 
 ---
@@ -41,4 +41,4 @@ WHERE lpep_pickup_datetime >= '2025-11-01'
   AND lpep_pickup_datetime < '2025-12-01'
   AND trip_distance <= 1;
 ```````
-**Answer:** 8,007
+**Answer:** `8,007`
