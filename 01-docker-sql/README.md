@@ -27,7 +27,8 @@ Since pgadmin and postgres are in the same docker-compose network:
 - Hostname: postgres
 - Port: 5432
 
-**Answer:** postgres:5432
+**Answer:** `postgres:5432`
+
 ---
 ## Question 3: Counting short trips
 
