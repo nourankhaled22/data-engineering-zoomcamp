@@ -13,7 +13,8 @@ docker run -it --entrypoint=bash python:3.13
 ```````
 Inside the container, I checked the pip version using:
 pip --version
-Answer: 25.3
+**Answer:** 25.3
+
 
 ---
 ## Question 2: Understanding Docker networking and docker-compose
