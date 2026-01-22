@@ -14,7 +14,7 @@ Inside the container, I checked the pip version using:
 pip --version
 Answer: 25.3
 
-
+---
 ## Question 2: Understanding Docker networking and docker-compose
 
 In docker-compose, containers communicate with each other using the service name as the hostname
@@ -25,7 +25,7 @@ Since pgadmin and postgres are in the same docker-compose network:
 - Port: 5432
 
 **Answer:** postgres:5432
-
+---
 ## Question 3: Counting short trips
 
 I ran the following SQL query on the green taxi trips data for November 2025:
